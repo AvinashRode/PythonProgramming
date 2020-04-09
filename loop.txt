@@ -1,0 +1,192 @@
+RANGE 
+for n in range(1,7):
+    print(n)
+******************
+SUM USING FOR IN RANGE 
+mysum=0
+
+for i in range(7,10):
+    mysum+=i
+    print(mysum)
+   
+7
+15
+24
+******************
+SEQUENCE 
+n=0
+
+while(n<6):
+    n=n+1
+    print(n)
+    
+1
+2
+3
+4
+5
+6
+*******************
+SUM USING WHILE IN RNAGE 
+n=0
+
+i=1
+
+while i<=6:
+    n+=i
+    i+=1
+    print(n)
+    
+1
+3
+6
+10
+15
+21
+*******************
+while SEQUENCE with Goodbye!
+n=2
+
+while n<=10:
+    print(n)
+    n+=2
+else:
+    print("Goodbye!")
+    
+2
+4
+6
+8
+10
+Goodbye!
+**********************
+WHILE REVERSE SEQUENCE with HELLO
+print("Hello")    
+n=10
+while n>=2:
+    print(n)
+    n-=2
+Hello
+10
+8
+6
+4
+2
+********************
+SUM OF Numbers Using WHILE
+n=0
+i=1
+while i<=6:
+    n+=i
+    i+=1
+    print(n)
+   
+0
+1
+3
+6
+10
+15
+21
+********************
+for SEQUENCE with Goodbye!
+n=0
+
+for n in range(2,11,2):
+    print(n)
+else:
+    print("Goodbye!")
+    
+2
+4
+6
+8
+10
+Goodbye!
+************************
+FOR REVERSE SEQUENCE with HELLO 
+print("Hello!")
+for n in range (10,0,-2):
+    print(n)
+Hello!
+10
+8
+6
+4
+2
+**************************
+SUM OF Numbers Using FOR
+n=0
+i=1
+for i in range(0,7):
+    n+=i
+    i+=1
+    print(n)
+   
+0
+1
+3
+6
+10
+15
+21
+***********************
+FOR reverse sequence 
+print("Hello!")
+for n in range (10,0,-2):
+    print(n)
+Hello!
+10
+8
+6
+4
+2
+------------------------
+
+**************************
+WHILE reverse sequence
+print("Hello")    
+num=10
+while num>=2:
+    print(num)
+    num-=2
+Hello
+10
+8
+6
+4
+2
+++++++++++++++++++++++++
+SUM of serial nimbers
+n=0
+i=1
+while i<=6:
+    n+=i
+    i+=1
+print(n)
+21
+------------------------
+power x**x
+x=2
+ans=0
+itersleft=x
+while (itersleft!=0):
+    ans+=x
+    itersleft-=1
+
+print(str(x)+'*'+str(x)+'='+str(ans))
+2*2=4
+
+
+
+
+
+
+
+
+
+*********************************
+SLICING
+> str1 = 'hello'
+> str2 = ','
+> str3 = 'world'
